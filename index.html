@@ -5,14 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <div class="card">
@@ -26,15 +20,15 @@
       </div>
     </div>
     <div class="lower">
-      <div class="box">
+      <div class="box dark-color">
         <h4 class="box-title">Monthly Subscription</h4>
-        <p class="price">&dollar;29 <span>per month</span></p>
-        <p class="box-descritption">Full access for less than &dollar;1 a day</p>
-        <input type="button" value="Sign Up">
+        <p class="price">&dollar;29 <span class="pm">per month</span></p>
+        <p class="description">Full access for less than &dollar;1 a day</p>
+        <input type="button" class="sign-up" value="Sign Up">
       </div>
-      <div class="box">
+      <div class="box light-color">
         <h4 class="box-title">Why Us</h4>
-        <ul>
+        <ul class="description">
           <li>Tutorials by industry experts</li>
           <li>Peer &amp; expert code review</li>
           <li>Coding exercises</li>
